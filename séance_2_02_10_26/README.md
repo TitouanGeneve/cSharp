@@ -41,3 +41,17 @@ index++; est équivalent à index=index+1;
 
 if (prix<= 40):
 
+<img width="952" height="609" alt="image" src="https://github.com/user-attachments/assets/ddd3e369-8492-42a5-897c-9b7979fc378b" />
+
+# Instruction if else
+
+```
+if (age >= 18)
+{
+Console.WriteLine("Il est majeur");
+}
+else
+{
+Console.WriteLine("Il est mineur");
+}
+```
