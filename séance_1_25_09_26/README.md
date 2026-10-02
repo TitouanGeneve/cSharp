@@ -1,4 +1,4 @@
-# Fonctions de base
+# Découverte des fonctions de base
 
 - Console.Write
 - Console.Writeline
