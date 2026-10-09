@@ -56,3 +56,44 @@ for (int i = Phrase.Length - 1; i >= 0; i--) //Boucle pour parcourir la phrase �
 //========================================================
 
 //Calculatrice
+Console.WriteLine("Calculatire chargée");
+Console.WriteLine("Entrez le premier nombre :");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Entrez le deuxième nombre :");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine("Entrez l'opération à effectuer (+,-,/,*,^^,%)");
+string operation = Console.ReadLine();
+if (operation == "+")
+{
+    Console.WriteLine("Le résultat de " + a + " plus " + b + " est :");
+    Console.WriteLine(a + b);
+}
+else if (operation == "-")
+{
+    Console.WriteLine("Le résultat de " + a + " moins " + b + " est :");
+    Console.WriteLine(a - b);
+}
+else if (operation == "/")
+{
+    Console.WriteLine("Le résultat de " + a + " divisé par " + b + " est :");
+    Console.WriteLine(a / b);
+}
+else if (operation == "*")
+{
+    Console.WriteLine("Le résultat de " + a + " multiplié par " + b + " est :");
+    Console.WriteLine(a * b);
+}
+else if (operation == "^^")
+{
+    Console.WriteLine("Le résultat de " + a + " à la puissance " + b + " est :");
+    Console.WriteLine(Math.Pow(a, b));
+}
+else if (operation == "%")
+{
+    Console.WriteLine("Le résultat de " + a + " modulo " + b + " est :");
+    Console.WriteLine(a % b);
+}
+else
+{
+    Console.WriteLine("Opération non reconnue");
+}
