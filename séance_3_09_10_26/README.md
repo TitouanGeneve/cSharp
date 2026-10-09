@@ -15,5 +15,5 @@
 - Random 
 - Longueur d'un string : ```String.Lenght```
 - Opérateur de puissance : ```Math.Pow(a, b)```
-- Instruction for : ```for (int i = 0; i =6 ; i++)``` --> équivalent à for i in range (0,6):
-- DateTime.Now
+- Instruction for : ```for (int i = 0; i =6 ; i++)``` --> équivalent à ```for i in range (0,6):``` en python
+- Afficher l'heure : ```DateTime.Now```
