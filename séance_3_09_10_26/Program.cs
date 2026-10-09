@@ -142,3 +142,33 @@ else
 {
     Console.WriteLine("Conversion non supportée.");
 }
+
+//========================================================
+
+//Jeu du nombre mystère
+Console.WriteLine("Jeu du nombre mystère");
+Console.WriteLine("Veuillez entrer un nombre entre 1 et 100 :");
+
+int Nombre = int.Parse(Console.ReadLine());
+int i = 0;
+Random random = new Random();
+int NombreMystere = random.Next(1, 101);
+
+while (Nombre != NombreMystere)
+{
+    if (Nombre > NombreMystere)
+    {
+        Console.WriteLine("Le nombre mystère est plus petit !");
+        i = i + 1;
+    }
+    else if (Nombre < NombreMystere)
+    {
+        Console.WriteLine("Le nombre mystère est plus grand !");
+        i = i + 1;
+    }
+
+    Console.WriteLine("Veuillez entrer un nouveau nombre :");
+    Nombre = int.Parse(Console.ReadLine());
+}
+
+Console.WriteLine("Félicitations ! Vous avez trouvé le nombre mystère en " + i + " tentatives !");
