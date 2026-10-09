@@ -8,6 +8,7 @@
 - Calculatrice
 - Convertisseur
 - Jeu du nombre mystère
+- Afficher l'heure
 
 ## Éléments découverts :
 
@@ -15,3 +16,4 @@
 - Longueur d'un string : ```String.Lenght```
 - Opérateur de puissance : ```Math.Pow(a, b)```
 - Instruction for : ```for (int i = 0; i =6 ; i++)``` --> équivalent à for i in range (0,6):
+- DateTime.Now
