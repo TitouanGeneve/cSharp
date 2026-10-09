@@ -172,3 +172,8 @@ while (Nombre != NombreMystere)
 }
 
 Console.WriteLine("Félicitations ! Vous avez trouvé le nombre mystère en " + i + " tentatives !");
+
+//========================================================
+
+//Afficher l'heure
+Console.WriteLine(DateTime.Now);
