@@ -66,34 +66,79 @@ string operation = Console.ReadLine();
 if (operation == "+")
 {
     Console.WriteLine("Le résultat de " + a + " plus " + b + " est :");
-    Console.WriteLine(a + b);
+    Console.WriteLine(a + b); // Affiche la somme de a et b
 }
 else if (operation == "-")
 {
     Console.WriteLine("Le résultat de " + a + " moins " + b + " est :");
-    Console.WriteLine(a - b);
+    Console.WriteLine(a - b); // Affiche la différence entre a et b
 }
 else if (operation == "/")
 {
     Console.WriteLine("Le résultat de " + a + " divisé par " + b + " est :");
-    Console.WriteLine(a / b);
+    Console.WriteLine(a / b); // Affiche le quotient de a et b
 }
 else if (operation == "*")
 {
     Console.WriteLine("Le résultat de " + a + " multiplié par " + b + " est :");
-    Console.WriteLine(a * b);
+    Console.WriteLine(a * b); // Affiche le produit de a et b
 }
 else if (operation == "^^")
 {
     Console.WriteLine("Le résultat de " + a + " à la puissance " + b + " est :");
-    Console.WriteLine(Math.Pow(a, b));
+    Console.WriteLine(Math.Pow(a, b)); // Affiche a à la puissance b
 }
 else if (operation == "%")
 {
     Console.WriteLine("Le résultat de " + a + " modulo " + b + " est :");
-    Console.WriteLine(a % b);
+    Console.WriteLine(a % b); // Affiche le reste de la division de a par b
 }
 else
 {
     Console.WriteLine("Opération non reconnue");
+}
+
+//========================================================
+
+//Convertisseur
+Console.WriteLine("Convertisseur d'unités chargé");
+Console.WriteLine("Entrez la valeur à convertir (distance) :");
+double a = double.Parse(Console.ReadLine()); // Lecture de la valeur à convertir (virgule acceptée)
+Console.WriteLine("Entrez l'unité de départ (m, cm, mm) :");
+string unit1 = Console.ReadLine();
+Console.WriteLine("Entrez l'unité d'arrivée (m, cm, mm) :");
+string unit2 = Console.ReadLine();
+if (unit1 == "m" && unit2 == "cm")
+{
+    double result = a * 100; // Conversion de mètres en centimètres
+    Console.WriteLine($"{a} m = {result} cm");
+}
+else if (unit1 == "cm" && unit2 == "m")
+{
+    double result = a / 100; // Conversion de centimètres en mètres
+    Console.WriteLine($"{a} cm = {result} m");
+}
+else if (unit1 == "m" && unit2 == "mm")
+{
+    double result = a * 1000; // Conversion de mètres en millimètres
+    Console.WriteLine($"{a} m = {result} mm");
+}
+else if (unit1 == "mm" && unit2 == "m")
+{
+    double result = a / 1000; // Conversion de millimètres en mètres
+    Console.WriteLine($"{a} mm = {result} m");
+}
+else if (unit1 == "cm" && unit2 == "mm")
+{
+    double result = a * 10; // Conversion de centimètres en millimètres
+    Console.WriteLine($"{a} cm = {result} mm");
+}
+else if (unit1 == "mm" && unit2 == "cm")
+{
+    double result = a / 10; // Conversion de millimètres en centimètres
+    Console.WriteLine($"{a} mm = {result} cm");
+}
+else
+{
+    Console.WriteLine("Conversion non supportée.");
 }
