@@ -52,3 +52,7 @@ for (int i = Phrase.Length - 1; i >= 0; i--) //Boucle pour parcourir la phrase �
 {
     Console.Write(Phrase[i]); //Affiche chaque caractère de la phrase à l'envers
 }
+
+//========================================================
+
+//Calculatrice
