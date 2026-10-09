@@ -1,6 +1,9 @@
 //Programmes supplémentaires
 
+//========================================================
 
+//Vérification de doublons
+Console.WriteLine("Veuillez saisir une phrase : ");
 string Phrase = Console.ReadLine();
 
 for (int i = 0; i < Phrase.Length; i++) // Parcours chaque caractère de la phrase
@@ -29,4 +32,23 @@ for (int i = 0; i < Phrase.Length; i++) // Parcours chaque caractère de la phra
             break; // arrète le code
         }
     }
+}
+
+//========================================================
+
+// Compter les caractères
+Console.WriteLine("Veuillez saisir une phrase : "); 
+string Phrase = Console.ReadLine(); //Lit la phrase saisie par l'utilisateur
+
+Console.WriteLine("La longeur de la phrase est : " + Phrase.Length); //Affiche la longeur de la phrase
+
+//========================================================
+
+//Retourner la phrase
+Console.WriteLine("Veuillez saisir une phrase : "); 
+string Phrase = Console.ReadLine(); //Lit la phrase saisie par l'utilisateur
+
+for (int i = Phrase.Length - 1; i >= 0; i--) //Boucle pour parcourir la phrase à l'envers
+{
+    Console.Write(Phrase[i]); //Affiche chaque caractère de la phrase à l'envers
 }
