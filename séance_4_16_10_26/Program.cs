@@ -1,3 +1,4 @@
+//========================================================
 //Calculatrice
 
 const string MENU = "+ - * /";
@@ -33,6 +34,7 @@ switch (operation)
         break;
 }
 
+//========================================================
 //Jour ouvré
 
 int jour = 3;
@@ -95,6 +97,7 @@ switch (nombre)
         break;
 }
 
+//========================================================
 //Voyelle ou consonne
 
 char lettre = 'a';
