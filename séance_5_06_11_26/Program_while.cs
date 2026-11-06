@@ -123,23 +123,21 @@ while (compteur < 21)
     if (compteur % 3 == 0 && compteur % 5 == 0) // si le compteur est divisible par 3 et 5
     {
         Console.WriteLine("Tic Tac");
-        compteur++;
     }
     else if (compteur % 5 == 0) // si le compteur est divisible par 5
     {
         Console.WriteLine("Tac");
-        compteur++;
     }
     else if (compteur % 3 == 0) // si le compteur est divisible par 3
     {
         Console.WriteLine("Tic");
-        compteur++;
     }
     else
     {
         Console.WriteLine(compteur);
-        compteur++;
     }
+    compteur++;
+
 }
 
 //========================================================
