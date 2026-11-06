@@ -110,7 +110,8 @@ List<string> names = ["<name>", "Ana", "Felipe"];
 ```
 | Fonction dans les listes | python | csharp |
 |-----------|-----|-------------|
-| ajout     | liste.append() | liste.Add |
-| Retirer   | liste.pop() | liste.Remove |
+| ajout     | <code>liste.append()</code> | <code>liste.Add</code> |
+| Retirer   | <code>liste.pop()</code> | <code>liste.Remove</code> |
+| Longeur   | <code>len(liste)</code> | <code>liste.Count</code>   |
 
 
