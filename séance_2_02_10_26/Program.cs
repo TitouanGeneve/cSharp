@@ -1,10 +1,17 @@
+//========================================================
+//========================================================
+//====Programme réalisé le 02/10/26 par Titouan Genève ====
+//========================================================
+//========================================================
+
+
 const string MESSAGE ="Bienvenue";
 const int NOMBRE_MAX = 50;
 const char CODE='z';
 
-
 Console.WriteLine("Code initialisé");
-Exercice 1
+
+// Exercice 1
 int NombreEntier = int.Parse(Console.ReadLine());
 if (NombreEntier > 0)
 {
