@@ -95,18 +95,18 @@ else
 
 //Exercice 2 :
 
-Console.WriteLine("Choissisez votre goblet : (p), petit 1 euros, (m), moyen 1.5 euros, (g), grand 2 euros");
+Console.WriteLine("Choissisez votre gobelet : (p), petit 1 euros, (m), moyen 1.5 euros, (g), grand 2 euros");
 char goblet = Convert.ToChar(Console.ReadLine()); // on récupère le caractère saisi par l'utilisateur
-switch (goblet)
+switch (gobelet)
 {
     case 'p':
-        Console.WriteLine("Vous avez choisi le goblet petit, le prix est de 1 euros");
+        Console.WriteLine("Vous avez choisi le gobelet petit, le prix est de 1 euros");
         break;
     case 'm':
-        Console.WriteLine("Vous avez choisi le goblet moyen, le prix est de 1.5 euros");
+        Console.WriteLine("Vous avez choisi le gobelet moyen, le prix est de 1.5 euros");
         break;
     case 'g':
-        Console.WriteLine("Vous avez choisi le goblet grand, le prix est de 2 euros");
+        Console.WriteLine("Vous avez choisi le gobelet grand, le prix est de 2 euros");
         break;
     default:
         Console.WriteLine("Choix invalide, pièce rendue");
