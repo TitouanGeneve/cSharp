@@ -1,4 +1,4 @@
-# Utilisation du switch case 
+# Utilisation du Switch case et du While
 
 ## Exercices :
 
