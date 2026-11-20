@@ -29,7 +29,7 @@ Console.WriteLine($"Salut, le nombre est {x}");
 ```
 **En python :**
 ```python
-print(f"Salut, le nombre est {x})
+print(f"Salut, le nombre est {x}")
 ```
 
 ### Découverte de l'incrémentation
